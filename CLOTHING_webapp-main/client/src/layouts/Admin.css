@@ -1,0 +1,102 @@
+/* Admin.css - Specific overrides for the AESTHETE Admin UI */
+
+.admin-layout-container {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Sidebar Overrides */
+.admin-sidebar {
+  background-color: #141414 !important;
+}
+
+.admin-sidebar .ant-menu {
+  background-color: #141414 !important;
+  color: #fff !important;
+}
+
+.admin-sidebar .ant-menu-item {
+  color: #a3a3a3 !important;
+  border-radius: 4px !important;
+  margin: 4px 12px !important;
+  width: calc(100% - 24px) !important;
+}
+
+.admin-sidebar .ant-menu-item:hover {
+  color: #fff !important;
+  background-color: #262626 !important;
+}
+
+.admin-sidebar .ant-menu-item-selected {
+  background-color: #262626 !important;
+  color: #fff !important;
+}
+
+/* Custom badges */
+.badge-green {
+  background-color: #e6f7ee;
+  color: #048b56;
+  border: 1px solid #c2ecd6;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.badge-yellow {
+  background-color: #fff8e6;
+  color: #b7790b;
+  border: 1px solid #fbe5b8;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.badge-gray {
+  background-color: #f5f5f5;
+  color: #595959;
+  border: 1px solid #e8e8e8;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+/* Table Overrides */
+.admin-table .ant-table {
+  background: transparent !important;
+}
+
+.admin-table .ant-table-thead > tr > th {
+  background: transparent !important;
+  color: #8c8c8c !important;
+  font-weight: 500 !important;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #f0f0f0 !important;
+  padding: 16px 24px !important;
+}
+
+.admin-table .ant-table-tbody > tr > td {
+  padding: 20px 24px !important;
+  border-bottom: 1px solid #f5f5f5 !important;
+  background: transparent !important;
+}
+
+.admin-table .ant-table-tbody > tr:hover > td {
+  background: #faf9f7 !important;
+}
+
+/* Card Overrides */
+.admin-stat-card {
+  border-radius: 12px !important;
+  border: 1px solid #eaeaea !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.03) !important;
+}
+
+.admin-table-card {
+  border-radius: 12px !important;
+  border: 1px solid #eaeaea !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.03) !important;
+  overflow: hidden;
+}
